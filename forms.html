@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div  style=" padding: 40px; width: 50%;justify-content: center;align-items: center;">
+      <div style="width: 80%;min-height:60vh ;padding: 20px;border: 1px solid gray;align-items: center;gap: 35px;flex-direction: row;">
+        <h3 style=" margin:0,40;text-align: center; text-transform: uppercase;">registration</h3>
+        <form action="">
+          <div class="inputs">
+            <label for="name">Name :</label>
+            <input type="text" placeholder="type your name..." />
+          </div>
+          <div class="inputs">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="type your email..." />
+          </div>
+          <div class="inputs">
+            <label for="Password">Password :</label>
+            <input type="password" placeholder="type your password..." />
+          </div>
+          <div class="inputs">
+            <label for="phoenNumber">PhoneNumber :</label>
+            <input type="number" placeholder="type your phoenNumber..." />
+          </div>
+          <div class="radio-group inputs">
+            <p>Gender :</p>
+            <div style="display: flex">
+              <div class="radio">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="male">Female</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+          <div class="inputs">
+            <label for="language">Language :</label>
+            <select name="language" id="language">
+              <option value="tamil">tamil</option>
+              <option value="hindi">hindi</option>
+              <option value="kannada">kannada</option>
+              <option value="Engish">Engish</option>
+            </select>
+          </div>
+          <div class="inputs">
+            <label for="zibCode">ZibCode :</label>
+            <input type="number" placeholder="type ur Zib code here..." />
+          </div>
+          <div class="inputs">
+            <label for="about">About :</label>
+           <textarea name="about" style="resize:horizontal;;overflow: scroll;border: 1px solid black;"></textarea>
+          </div>
+        </form>
+        <button style="margin-top: 30px;display: block; margin: auto;">Register</button>
+      </div>
+    </div>
+  </body>
+  <style>
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      } 
+      .box{
+        
+      }
+      
+      .inputs{
+          display: flex;
+          padding: 10px;
+          gap:20px;
+           justify-content: space-around;
+           margin-top:15px;
+
+      }
+      
+  </style>
+</html>
